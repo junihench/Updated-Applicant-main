@@ -2,6 +2,7 @@ body {
   background-color: white;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -464,16 +465,14 @@ input {
 }
 /* Breadcrumbs */ 
 .breads{
-  margin-top:30px;
   margin-bottom:-30px;
-  margin-left:20px;
 }
 
 .breadcrumb {
   margin-bottom: 0;
   font-size: 15px;
   background-color: transparent;
-  padding:0 0 15px 0;
+  padding: 10px 0 10px 30px;
 }
 .breadcrumb a{
   color:#08376B;
@@ -810,4 +809,24 @@ input {
   #contact #google-map {
     margin-top: 20px;
   }
+}
+
+.modal-body{
+  max-height: 400px;
+  overflow: auto;
+  padding:20px 30px 20px 30px;
+}
+
+.modal-body h5{
+ 
+  color: #08376B;
+}
+
+.modal-body p{
+  margin-bottom:30px;
+}
+
+.modal-title{
+  color: #08376B;
+  font-weight: 600;
 }
