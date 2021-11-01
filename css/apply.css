@@ -219,6 +219,18 @@ h6 {
 }
 
 /*Buttons*/
+button{
+  background-color: #08376B;
+  color: white;
+}
+
+th{
+  font-weight: 500;
+}
+
+.heading{
+  font-weight: 600;
+}
 /* Buttons */
 .buttons{
   float: right;
@@ -450,7 +462,23 @@ input {
 #apply p{
   text-align: justify;
 }
+/* Breadcrumbs */ 
+.breads{
+  margin-top:30px;
+  margin-bottom:-30px;
+  margin-left:20px;
+}
 
+.breadcrumb {
+  margin-bottom: 0;
+  font-size: 15px;
+  background-color: transparent;
+  padding:0 0 15px 0;
+}
+.breadcrumb a{
+  color:#08376B;
+  border-bottom:1px solid #08376B;
+}
 /* Progressbar */
 .progressbar {
   position: relative;
