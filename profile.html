@@ -51,7 +51,7 @@
           <li><a href="user-about.html">About</a></li>
           <li ><a href="user-careers.html">Careers</a>
            </li>
-           <li ><a href="user-careers.html">Job Offers</a>
+           <li ><a href="job-offer-main.html">Job Offer</a>
            </li>
           <li><a href="user-contact.html">Contact</a></li>
           <div class="buttons">
@@ -95,9 +95,11 @@
                         <p class="text-muted font-size-sm">0977 777 7777</p>
                         <div class="applied-jobs">
                           <h4>Applied Jobs</h4>
-                          <button type="button">IT Technical Support</button>
-                          <button type="button">IT Instructor</button>
-                          <button type="button">Web Developer</button>
+                          <button class="profbtn" type="button" data-toggle="collapse" data-target="#Tech" aria-expanded="false" aria-controls="collapseExample">IT Technical Support</button>
+                          <button class="profbtn" type="button" data-toggle="collapse" data-target="#Instructor" aria-expanded="false" aria-controls="collapseExample">IT Instructor</button>
+                          <button class="profbtn" type="button" data-toggle="collapse" data-target="#WebDev" aria-expanded="false" aria-controls="collapseExample">
+                            Web Developer
+                             </button>
                         </div>
                       </div>
                     </div>
@@ -236,7 +238,25 @@
                         <div class="container">
                           <div class="row">
                             <div class="col">
-                              <ul class="timeline">
+                              <ul class="timeline collapse" id="Instructor">
+                                <li>
+                                  <a class="title" target="#" href="#">Application</a>
+                                  <a href="#" class="float-right text-muted">21 March, 2014</a>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                </li>
+                                <li>
+                                  <a class="title" href="#">Shortlisted</a>
+                                  <a href="#" class="float-right text-muted">4 March, 2014</a>
+                                  <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                                </li>
+                                <li>
+                                  <a class="title" href="#">Screening Interview</a>
+                                  <a href="#" class="float-right text-muted">1 April, 2014</a>
+                                  <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                                </li>
+                               
+                              </ul>
+                              <ul class="timeline collapse" id="WebDev">
                                 <li>
                                   <a class="title" target="#" href="#">Application</a>
                                   <a href="#" class="float-right text-muted">21 March, 2014</a>
