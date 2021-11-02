@@ -1185,9 +1185,10 @@ section {
 }
 
 .kard{
-  width:200px;
+  width:150px;
   height: auto;
   padding: 20px;
+  
 }
 
 .btns{
@@ -1197,6 +1198,7 @@ section {
   
 }
 
-.card{
+.cards{
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  padding:0 20px 20px 20px;
 }
