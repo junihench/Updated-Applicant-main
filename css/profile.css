@@ -505,29 +505,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*profile page*/
-#profile .education button{
-  background-color: #08376B;
-  color: white;
-  border-radius: 20px;
-  padding: 5px 15px;
+
+.sections h4{
+  padding: 10px ;
   border: none;
-  margin: 40px 30px 10px 30px;
+  
   text-transform: uppercase;
 }
-#profile .experience button{
-  background-color: #08376B;
-  color: white;
-  border-radius: 20px;
-  padding: 5px 15px;
-  border: none;
-  margin: 15px 30px 10px 30px;
-  text-transform: uppercase;
-}
-#profile i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #08376B;
-}
+
 
 #profile  ul {
   list-style: none;
