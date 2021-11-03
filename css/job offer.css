@@ -927,3 +927,44 @@ td > button {
   color: #08376B;
   font-weight: 600;
 }
+
+.btn-next, .btn-prev{
+  background-color: #08376B;
+  color: white;
+  padding:10px;
+}
+table{
+  color: black;
+}
+thead{
+  font-weight: 700;
+  color: #08376B;
+}
+
+th{
+  font-weight: 500;
+}
+
+/* Notifications */
+.boton{
+  background-color: transparent;
+  padding: none;
+}
+
+.boton i{
+  color: #0c2e8a;
+  font-size:20px;
+}
+
+.boton:hover{
+  background-color: none !important;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.headings{
+  font-weight: 600;
+}

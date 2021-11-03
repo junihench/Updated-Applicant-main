@@ -45,11 +45,11 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu justify-content-end">
-          <li class="menu-active"><a href="#body">Home</a></li>
+          <li ><a href="#body">Home</a></li>
           <li><a href="#about">About</a></li>
           <li ><a href="user-careers.html">Careers</a>
            </li>
-           <li ><a href="job offer.html">Job Offer</a>
+           <li class="menu-active" ><a href="job offer.html">Job Offer</a>
            </li>
           <li><a href="#contact">Contact</a></li>
           <div class="buttons">
@@ -57,7 +57,14 @@
         </ul>
       </nav><!-- #nav-menu-container -->
       <div class="dropdown buttons">
+        <button class=" btn boton " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="badge badge-danger ml-2">4</span> <i class="fa fa-bell" aria-hidden="true"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="profile.html">View Profile</a>
+          <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
         
+        </div>
         <button class="register-btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Hello, Art!
         </button>
@@ -71,6 +78,8 @@
       
     </div>
   </header><!-- #header -->
+
+
 
   <body class="bg-white">
     <div class="row breads bg-light">
@@ -88,11 +97,10 @@
       <div class="section-title">
         <h2>Job Offer</h2>
         <h4>Geodetic Engineering</h4>
-        
       </div>
       <div class="col-12 col-lg-3 ml-auto mr-auto mb-4">  
         <div class="progressbar">
-           
+            <div class="progress" id="progress"></div>
             <div class="progress-step progress-step-active"></div>
             <div class="progress-step" ></div>
             <div class="progress-step" ></div>
@@ -101,9 +109,10 @@
     </div>
   
         <!-- Steps -->
-        <form action="#" class="form">
+        <form action="#" class="form ">
           <div class="form-step form-step-active">
             <p class="subt text-center text-muted">Job Offer Letter</p>
+            
               
               <div class="inner-form bg-white">
                
@@ -118,232 +127,237 @@
                   <p>
                     We are pleased to offer you the position of <b>Guidance Counselor II</b> under the  
                     <b>Guidance Office </b> which you will be reporting directly to the Vice Chancellor for Student Affairs Services. We believe your expertise and experience will be an asset to our university.
-
+  
                   </p>
                   
                   <p>Please see attached document for the list of pre-employment requirements to be complied on or before <b><u>May 14, 2021</u></b>. 
                     In the meantime, if you have any queries regarding this job offer, please feel free to contact us anytime at <b><u>recruitment.hrmo@ustp.edu.ph.</u></b>
                   </p>
-
+  
                   <p>We look forward to having you on our team, trailblazer!
                   </p>
-
+  
                   <p>Best regards,</p>
                   <p>
                     <b>MARIA CECILIA L. PANGAN, PhD</b><br>
                     Director, Human Resource Management Office <br>
                     USTP CDO
-
+  
                   </p>
                  
                   <p><i>cc: Office of the Vice Chancellor for Student Affairs Services
                    Guidance Office
                   </i></p>
-
+  
                   <button class="btn btn-primary mt-5">Download File <i class="pl-2 fa fa-file-text" aria-hidden="true"></i>
                   </button>
-
-                  </div>
-              
-
-                <a href="#" class="btns btn-next btn-block ml-auto">Next</a>
-            </div>
-         
   
+                
+              </div>
+                    <a href="#" class="btn btn-next btn-block ml-auto">Next</a>
+          </div>
+  
+              
   
             <!--File table-->
             <div class="form-step">
-              <p class="subt text-center text-muted">Pre-Employment Requirements Form</p>
-                <div class="inner-form">
+              <p class="subt text-center text-muted">Pre-Emploment Documents Form</p>
+              
+  
+  
+  
+  
+              <div class="inner-form">
+                      
+                  <p>To facilitate your employment with University of Science and Technology of Southern Philippines,
+                    you are required to to submit the following documents/requirement on or before <b><u>May 14, 2021</u></b>
+                  </p>
+                  <table class="table">
+                    <thead>
+                      <tr >
+                        <th class="headings" scope="col">Pre-Employment Documents</th>
+                        <th class="headings" scope="col">File</th>
+                     
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><th><b>A. Personal Documents</b></th></tr>
+                      <tr>
+                        <th scope="row">Personal Data Sheet 3 Original (Notarized) - Long Bond Paper</th>
+                        <td><button>UPLOAD</button></td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Clearance from Previous employer - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
                     
-              <p>To facilitate your employment with University of Science and Technology of Southern Philippines,
-                you are required to to submit the following documents/requirement on or before <b><u>May 14, 2021</u></b>
-              </p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Pre-Employment Documents</th>
-                    <th scope="col">File</th>
-                 
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><th><b>A. Personal Documents</b></th></tr>
-                  <tr>
-                    <th scope="row">Personal Data Sheet 3 Original (Notarized) - Long Bond Paper</th>
-                    <td><button>UPLOAD</button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Original NSO Birth Certificate - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
                     
-                  </tr>
-                  <tr>
-                    <th scope="row">Clearance from Previous employer - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                
-                  </tr>
-                  <tr>
-                    <th scope="row">Original NSO Birth Certificate - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                
-                  </tr>
-                  <tr>
-                    <th scope="row">Marriage Certificate (if married) - 2 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                
-                  </tr>
-                  <tr>
-                    <th scope="row">Virth Certificate of children - 2 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                
-                  </tr>
-
-                  <tr><th><b>B. Educational Documents</b></th></tr>
-                  <tr>
-                    <th scope="row">2 Authenticated Copies of Transcript of Records</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">2 Authenticated Copies of Diploma (College, Graduate School, Post-graduate)</th>
-                    <td><button>UPLOAD</button></td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">2 Authenticated Copies of Certificate of Eligibility (if applicable)</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">2 Authenticated Copies of PRC ID (if applicable)</th>
-                    <td><button>UPLOAD</button></td>
-                   
-                  </tr>
-
-                  <tr><th><b>C. Government Documents</b></th>
-                    <td></td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">Medical Certificate for pre-employment as per CSC form NO. 211
-                      with documentary stamp and the following Medical Test results 
-                      - 2 Original:</th>
-                      <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">a. Blood Test - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">b. Urinalysis - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">c. Chest X-ray - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                 
-                  </tr>
-                  <tr>
-                    <th scope="row">d. Drug Test - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">e. Neuropsychiatric Examination w/ Pyschological Test
-                      1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Marriage Certificate (if married) - 2 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
                     
-                  </tr>
-                  <tr>
-                    <th scope="row">NBI Clearance - 1 Original & 1 Photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                 
-                  </tr>
-                  <tr>
-                    <th scope="row">Statement of Assets, Liabilities and Net Worth (SALN)
-                      - 3 Original (Notarized)</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">BIR Form 1902 (Application for Refistration) and Form 2305
-                      - 2 Original (Downloadable)</th>
-                    <td><button>UPLOAD</button></td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">Pag Ibig Fund member’s Data Form (MDF) with Registration
-                      Tracking Number (RTN) - 1 Original & 1 photocopy</th>
-                    <td><button>UPLOAD</button></td>
-                  
-                  </tr>
-                  <tr>
-                    <th scope="row">Philhealth Number and Philhealth Membership Form with 
-                      Philhealth Number - 2 Original</th>
-                    <td><button>UPLOAD</button></td>
-                   
-                  </tr>
-
-                  <tr><th><b>D. Additional Requirements fro transferees (from one government office to another)</b></th>
-                    <td></td>
-                   
-                  </tr>
-                  <tr>
-                    <th scope="row">Clearance from money, property and legal accountabilities from the previous office.</th>
-                    <td><button>UPLOAD</button></td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row">Certified true copy of pre-audited disbursement voucher of last salary from previous agancy and/or <br>
-                    Certification by the Chief Accountant of last salary received from previous office duty verified by the assigned auditor thereat.</th>
-                    <td><button>UPLOAD</button></td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row">Certified of Available Leave Credits</th>
-                    <td><button>UPLOAD</button></td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row">Service Record</th>
-                    <td><button>UPLOAD</button></td>
-                  </tr>
-                 
-                </tbody>
-              </table>
-
-              <p class="noticed">Bring both the ORIGINAL and a corresponding PHOTOCOPY of all the documents stated above</p>
-                </div>
-            
+                      </tr>
+                      <tr>
+                        <th scope="row">Virth Certificate of children - 2 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                    
+                      </tr>
+    
+                      <tr><th><b>B. Educational Documents</b></th></tr>
+                      <tr>
+                        <th scope="row">2 Authenticated Copies of Transcript of Records</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">2 Authenticated Copies of Diploma (College, Graduate School, Post-graduate)</th>
+                        <td><button>UPLOAD</button></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">2 Authenticated Copies of Certificate of Eligibility (if applicable)</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">2 Authenticated Copies of PRC ID (if applicable)</th>
+                        <td><button>UPLOAD</button></td>
+                       
+                      </tr>
+    
+                      <tr><th><b>C. Government Documents</b></th>
+                        <td></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">Medical Certificate for pre-employment as per CSC form NO. 211
+                          with documentary stamp and the following Medical Test results 
+                          - 2 Original:</th>
+                          <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">a. Blood Test - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">b. Urinalysis - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">c. Chest X-ray - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                     
+                      </tr>
+                      <tr>
+                        <th scope="row">d. Drug Test - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">e. Neuropsychiatric Examination w/ Pyschological Test
+                          1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">NBI Clearance - 1 Original & 1 Photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                     
+                      </tr>
+                      <tr>
+                        <th scope="row">Statement of Assets, Liabilities and Net Worth (SALN)
+                          - 3 Original (Notarized)</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">BIR Form 1902 (Application for Refistration) and Form 2305
+                          - 2 Original (Downloadable)</th>
+                        <td><button>UPLOAD</button></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">Pag Ibig Fund member’s Data Form (MDF) with Registration
+                          Tracking Number (RTN) - 1 Original & 1 photocopy</th>
+                        <td><button>UPLOAD</button></td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">Philhealth Number and Philhealth Membership Form with 
+                          Philhealth Number - 2 Original</th>
+                        <td><button>UPLOAD</button></td>
+                       
+                      </tr>
+    
+                      <tr><th><b>D. Additional Requirements fro transferees (from one government office to another)</b></th>
+                        <td></td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">Clearance from money, property and legal accountabilities from the previous office.</th>
+                        <td><button>UPLOAD</button></td>
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">Certified true copy of pre-audited disbursement voucher of last salary from previous agancy and/or <br>
+                        Certification by the Chief Accountant of last salary received from previous office duty verified by the assigned auditor thereat.</th>
+                        <td><button>UPLOAD</button></td>
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">Certified of Available Leave Credits</th>
+                        <td><button>UPLOAD</button></td>
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">Service Record</th>
+                        <td><button>UPLOAD</button></td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+    
+                  <p class="noticed">Bring both the ORIGINAL and a corresponding PHOTOCOPY of all the documents stated above</p>
+                    </div>
                <div class="btns-group">
-                <a href="#" class="btns btn-prev">Previous</a>
-                <a href="#" class="btns btn-next">Next</a>
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
             </div>          
             </div>                      
   
   
-      
+                    <!--Data Privacy-->
           <div class="form-step ">
-            <p class="subt text-center text-muted">Acknowledgement</p>
-            <div class="inner-form bg-white">
-
-              <p>
-                I hereby accept the job offer of The University of Science and Technology of Southern Philippines for the position of Guidance Counselor II under the Guidance Office and I will comply my pre-employment requirements stated above herein on or before <b><u>May 14, 2021.</u></b>
-
-               </p>
-               <p class="mt-5 text-danger">
-                Please upload a picture of your <b>Signature above printed name / Date</b>
-               </p>
-
-               <label for="fileUpload" class="file-upload btn btn-primary btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
-                <input id="fileUpload" type="file">
-            </label>
-                 </div>
+              <p class="subt text-center text-muted">Acknowledgement</p>
+              <div class="inner-form bg-white">
+  
+                <p>
+                  I hereby accept the job offer of The University of Science and Technology of Southern Philippines for the position of Guidance Counselor II under the Guidance Office and I will comply my pre-employment requirements stated above herein on or before <b><u>May 14, 2021.</u></b>
+  
+                 </p>
+                 <p class="mt-5 text-danger">
+                  Please upload a picture of your <b>Signature above printed name / Date</b>
+                 </p>
+  
+                 <label for="fileUpload" class="file-upload btn btn-primary btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
+                  <input id="fileUpload" type="file">
+              </label>
+                   </div>
             <div class="btns-group">
-            <a href="#" class="btns btn-prev">Previous</a>
-            <a href="profile.html" class="btns btn-next">Submit</a>
+            <a href="#" class="btn btn-prev">Previous</a>
+            <a href="profile.html" class="btn btn-next" id="btn-confirm">Submit</a>
           </div>
           </div>
+
+          
   
         </form>
      </section>

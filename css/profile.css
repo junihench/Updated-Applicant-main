@@ -556,6 +556,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
 }
 
+/*pre-employment page*/
+#pre-employment thead th{
+  color: #08376B;
+}
+#pre-employment  button{
+  background: #08376B;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+#pre-employment  tbody td a{
+  color: red;
+}
+#pre-employment  tbody th{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
 /*job offer*/
 #second-page{
   display: none;
@@ -867,4 +886,24 @@ ul.timeline > li:before {
 .modal-title{
   color: #08376B;
   font-weight: 600;
+}
+
+/* Notifications */
+.boton{
+  background-color: transparent;
+  padding: none;
+}
+
+.boton i{
+  color: #0c2e8a;
+  font-size:20px;
+}
+
+.boton:hover{
+  background-color: none !important;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }

@@ -58,7 +58,16 @@
           </div>
         </ul>
       </nav><!-- #nav-menu-container -->
+      
       <div class="dropdown buttons">
+        <button class=" btn boton " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="badge badge-danger ml-2">4</span> <i class="fa fa-bell" aria-hidden="true"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="profile.html">View Profile</a>
+          <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
+        
+        </div>
         <button class="register-btn btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Hello, Art!
         </button>
@@ -96,7 +105,6 @@
                         <div class="applied-jobs">
                           <h4>Applied Jobs</h4>
                           <button class="profbtn" type="button" data-toggle="collapse" data-target="#Tech" aria-expanded="false" aria-controls="collapseExample">IT Technical Support</button>
-                          <button class="profbtn" type="button" data-toggle="collapse" data-target="#Instructor" aria-expanded="false" aria-controls="collapseExample">IT Instructor</button>
                           <button class="profbtn" type="button" data-toggle="collapse" data-target="#WebDev" aria-expanded="false" aria-controls="collapseExample">
                             Web Developer
                              </button>
@@ -118,7 +126,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="attachments-tab" data-toggle="tab" href="#attachments" role="tab" aria-controls="attachments" aria-selected="false">Attachments</a>
                             </li>
-                            
+                            <li class="nav-item">
+                              <a class="nav-link" id="pre-employment-tab" data-toggle="tab" href="#pre-employment" role="tab" aria-controls="pre-employment" aria-selected="false">Pre-Employment Documents</a>
+                            </li>
                             <li class="nav-item">
                               <a class="nav-link" id="timeline-tab" data-toggle="tab" href="#timeline" role="tab" aria-controls="timeline" aria-selected="false">Timeline</a>
                             </li>
@@ -163,27 +173,27 @@
                             <tbody>
                               <tr>
                                 <th scope="row">Letter of Intent</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                
                               </tr>
                               <tr>
                                 <th scope="row">CSC Form 212, Revised 2017 (Personal Data Sheet) with ID picture taken within the last 6 months, 3.5cm x 4.5cm (passport size) and with full and handwritten name tag and signature overprinted name</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                               
                               </tr>
                               <tr>
                                 <th scope="row">Curriculum Vitae</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                 
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy of Transcript of Records</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy of Diploma</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                               
                               </tr>
                               <tr>
@@ -193,37 +203,37 @@
                               </tr>
                               <tr>
                                 <th class="pl-5" scope="row">Photocopy of Professional Regulation Commission (PRC) professional ID card/certificate of registration/license and other eligibilities, if available</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                
                               </tr>
                               <tr>
                                 <th class="pl-5" scope="row">Photocopy of ratings obtained in the Licensure Examination for teachers (LET)/Professional Board Examination for Teachers (PBET), if available.</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                 
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy from the authenticated copy of Diploma and TOR (authenticated by the school registrar)                                </th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                 
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy from the authenticated copy of unexpired PRC License / Board Rating / CS Eligibility                                </th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy of Certificate of relevant trainings / seminars attended (if applicable)                                </th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                
                               </tr>
                               <tr>
                                 <th scope="row">Photocopy of Certificate of Employment (if applicable)                                </th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                 
                               </tr>
                               <tr>
                                 <th scope="row">Individual Performance Commitment and Review (IPCR) / Performance Rating in the last 2 rating periods, if applicable</th>
-                                <td><button>UPLOAD</button></td>
+                                <td><button>VIEW</button></td>
                                 
                               </tr>
                             </tbody>
@@ -231,55 +241,192 @@
                         </div> 
                       </div>
 
-                      
+                      <div class="tab-pane fade" id="pre-employment" role="tabpanel" aria-labelledby="pre-employment-tab">
+                        <div class="table-responsive">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Pre-Employment Documents</th>
+                                <th scope="col">File</th>
+                             
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr><th><b>A. Personal Documents</b></th></tr>
+                              <tr>
+                                <th scope="row">Personal Data Sheet 3 Original (Notarized) - Long Bond Paper</th>
+                                <td><button>VIEW</button></td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Clearance from Previous employer - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                            
+                              </tr>
+                              <tr>
+                                <th scope="row">Original NSO Birth Certificate - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                            
+                              </tr>
+                              <tr>
+                                <th scope="row">Marriage Certificate (if married) - 2 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                            
+                              </tr>
+                              <tr>
+                                <th scope="row">Virth Certificate of children - 2 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                            
+                              </tr>
+            
+                              <tr><th><b>B. Educational Documents</b></th></tr>
+                              <tr>
+                                <th scope="row">2 Authenticated Copies of Transcript of Records</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">2 Authenticated Copies of Diploma (College, Graduate School, Post-graduate)</th>
+                                <td><button>VIEW</button></td>
+                               
+                              </tr>
+                              <tr>
+                                <th scope="row">2 Authenticated Copies of Certificate of Eligibility (if applicable)</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">2 Authenticated Copies of PRC ID (if applicable)</th>
+                                <td><button>VIEW</button></td>
+                               
+                              </tr>
+            
+                              <tr><th><b>C. Government Documents</b></th>
+                                <td></td>
+                               
+                              </tr>
+                              <tr>
+                                <th scope="row">Medical Certificate for pre-employment as per CSC form NO. 211
+                                  with documentary stamp and the following Medical Test results 
+                                  - 2 Original:</th>
+                                  <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">a. Blood Test - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                               
+                              </tr>
+                              <tr>
+                                <th scope="row">b. Urinalysis - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">c. Chest X-ray - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                             
+                              </tr>
+                              <tr>
+                                <th scope="row">d. Drug Test - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">e. Neuropsychiatric Examination w/ Pyschological Test
+                                  1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">NBI Clearance - 1 Original & 1 Photocopy</th>
+                                <td><button>VIEW</button></td>
+                             
+                              </tr>
+                              <tr>
+                                <th scope="row">Statement of Assets, Liabilities and Net Worth (SALN)
+                                  - 3 Original (Notarized)</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">BIR Form 1902 (Application for Refistration) and Form 2305
+                                  - 2 Original (Downloadable)</th>
+                                <td><button>VIEW</button></td>
+                               
+                              </tr>
+                              <tr>
+                                <th scope="row">Pag Ibig Fund member’s Data Form (MDF) with Registration
+                                  Tracking Number (RTN) - 1 Original & 1 photocopy</th>
+                                <td><button>VIEW</button></td>
+                              
+                              </tr>
+                              <tr>
+                                <th scope="row">Philhealth Number and Philhealth Membership Form with 
+                                  Philhealth Number - 2 Original</th>
+                                <td><button>VIEW</button></td>
+                               
+                              </tr>
+            
+                              <tr><th><b>D. Additional Requirements fro transferees (from one government office to another)</b></th>
+                                <td></td>
+                               
+                              </tr>
+                              <tr>
+                                <th scope="row">Clearance from money, property and legal accountabilities from the previous office.</th>
+                                <td><button>VIEW</button></td>
+                              </tr>
+            
+                              <tr>
+                                <th scope="row">Certified true copy of pre-audited disbursement voucher of last salary from previous agancy and/or <br>
+                                Certification by the Chief Accountant of last salary received from previous office duty verified by the assigned auditor thereat.</th>
+                                <td><button>VIEW</button></td>
+                              </tr>
+            
+                              <tr>
+                                <th scope="row">Certified of Available Leave Credits</th>
+                                <td><button>VIEW</button></td>
+                              </tr>
+            
+                              <tr>
+                                <th scope="row">Service Record</th>
+                                <td><button>VIEW</button></td>
+                              </tr>
+                             
+                            </tbody>
+                          </table>
+                        </div> 
+                      </div>
 
+                   
                       <!--timeline page-->
                       <div class="tab-pane fade" id="timeline" role="tabpanel" aria-labelledby="timeline-tab">
                         <div class="container">
                           <div class="row">
                             <div class="col">
-                              <ul class="timeline collapse" id="Instructor">
-                                <li>
-                                  <a class="title" target="#" href="#">Application</a>
-                                  <a href="#" class="float-right text-muted">21 March, 2014</a>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                </li>
-                                <li>
-                                  <a class="title" href="#">Shortlisted</a>
-                                  <a href="#" class="float-right text-muted">4 March, 2014</a>
-                                  <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-                                </li>
-                                <li>
-                                  <a class="title" href="#">Screening Interview</a>
-                                  <a href="#" class="float-right text-muted">1 April, 2014</a>
-                                  <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-                                </li>
-                               
-                              </ul>
                               <ul class="timeline collapse" id="WebDev">
                                 <li>
                                   <a class="title" target="#" href="#">Application</a>
-                                  <a href="#" class="float-right text-muted">21 March, 2014</a>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                                </li>
+                                  <a href="#" class="float-right text-muted">21 March, 2021</a>
+                                  <p>We have received your application. We will notify you if you have qualified in our shortlist. </p>  </li>
                                 <li>
                                   <a class="title" href="#">Shortlisted</a>
-                                  <a href="#" class="float-right text-muted">4 March, 2014</a>
-                                  <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                                  <a href="#" class="float-right text-muted">30 March, 2021</a>
+                                  <p>Congratulations on being part of the qualified applicants. Keep posted on what to do next on your application. </p>
                                 </li>
                                 <li>
                                   <a class="title" href="#">Screening Interview</a>
-                                  <a href="#" class="float-right text-muted">1 April, 2014</a>
-                                  <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                                  <a href="#" class="float-right text-muted">1 April, 2021</a>
+                                  <p>For your virtual interview, we have sent the date and the meeting link</p>
                                 </li>
                                 <li>
                                   <a class="title" href="#">Teaching Demo</a>
-                                  <a href="#" class="float-right text-muted">4 March, 2014</a>
-                                  <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                                  <a href="#" class="float-right text-muted">8 April, 2021</a>
+                                  <p>We have sent the date and meeting link for your teaching demo</p>
                                 </li>
                                 <li>
                                   <a class="title" href="#">Summary of Ratings added</a>
-                                  <a href="#" class="float-right text-muted">1 April, 2014</a>
+                                  <a href="#" class="float-right text-muted">15 April, 2021</a>
                                   <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
                                 </li>
                               </ul>
