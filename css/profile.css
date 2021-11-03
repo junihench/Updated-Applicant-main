@@ -907,3 +907,30 @@ ul.timeline > li:before {
   outline: none !important;
   box-shadow: none;
 }
+
+.listjobs {
+  padding: 0;
+  list-style-type: none;
+}
+
+.listjobs li{
+  background-color: #08376B;
+  padding: 10px;
+  width: 100%;
+  margin:10px;
+  
+}
+
+.listjobs li > a{
+  
+  color: white !important;
+}
+
+.listjobs li:hover{
+  background-color: #209dd8;
+  color: white !important;
+}
+
+.btn-group1, .btn-group2{
+  display:inline;
+}

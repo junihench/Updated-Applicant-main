@@ -968,3 +968,8 @@ th{
 .headings{
   font-weight: 600;
 }
+
+
+.btn-group1, .btn-group2{
+  display:inline;
+}
