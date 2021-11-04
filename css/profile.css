@@ -875,20 +875,6 @@ ul.timeline > li:before {
   font-weight: 600;
 }
 
-/* Notifications */
-.boton{
-  background-color: transparent;
-  padding: none;
-}
-
-.boton i{
-  color: #0c2e8a;
-  font-size:20px;
-}
-
-.boton:hover{
-  background-color: none !important;
-}
 
 .btn:focus,.btn:active {
   outline: none !important;
@@ -916,6 +902,32 @@ ul.timeline > li:before {
 .listjobs li:hover{
   background-color: #209dd8;
   color: white !important;
+}
+
+ /* Notifications */
+ .boton{
+  background-color: transparent;
+  padding: none;
+}
+
+.boton i{
+  color: #08376B;
+  font-size:20px;
+}
+
+.boton:hover{
+  background-color: none !important;
+}
+
+.btn-notif{
+  background-color: #08376B;
+  color: #f3f3f3;
+  padding:5px 10px 5px 10px;
+}
+
+.notifs a {
+border-bottom: 1px solid #cecece;
+padding: 10px 10px 10px 10px;
 }
 
 .btn-group1, .btn-group2{
