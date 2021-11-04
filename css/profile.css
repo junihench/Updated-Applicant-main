@@ -943,3 +943,7 @@ padding: 10px 10px 10px 10px;
   margin-left: 0;
   padding: 0;
 }
+
+.sections h5{
+  font-weight: 800;
+}
