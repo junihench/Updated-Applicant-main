@@ -383,7 +383,7 @@ body {
   
   .section-title {
     text-align: center;
-    padding-bottom: 10px;
+    
   }
   
   .section-title h2 {
@@ -979,7 +979,7 @@ body {
   .tabs-section {
     overflow: hidden;
     background-color: #333;
-    padding: 60px 0px;
+   
 }
 .tabs-section .feature-img {
     max-height: 255px;
@@ -1022,7 +1022,12 @@ body {
     color: #000000;
 }
 .btn-notif{
-    background-color: #ba8410;
+    background-color: #08376B;
     color: #f3f3f3;
     padding:5px 10px 5px 10px;
+}
+
+.notifs a {
+  border-bottom: 1px solid #cecece;
+  padding: 10px 10px 10px 10px;
 }

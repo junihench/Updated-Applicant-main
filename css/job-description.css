@@ -448,6 +448,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding:10px 20px 10px 20px;
     border-radius: 20px;
   }
+
+  .btns:hover{
+    background-color: #209dd8 !important;
+    color: white !important;
+  }
  
   .btns{
     text-align: left !important;
