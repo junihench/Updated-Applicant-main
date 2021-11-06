@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.none{
+  width: 300px;
+  height: auto;
+}
+
 /* Back to top button */
 
 .back-to-top {
@@ -1191,6 +1196,13 @@ section {
   
 }
 
+.kards{
+  width:350px;
+  height: auto;
+  padding: 20px;
+  
+}
+
 .btns{
   font-size:15px;
   padding:5px 10px 5px 10px;
@@ -1241,4 +1253,8 @@ section {
 .notifs a {
 border-bottom: 1px solid #cecece;
 padding: 10px 10px 10px 10px;
+}
+
+.title {
+  color: #08376B;
 }
