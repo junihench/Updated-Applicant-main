@@ -611,11 +611,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 5px 10px 10px 5px ;
 }
 
+.timeline-title{
+  font-weight: 700;
+  color: #08376B;
+  text-transform: uppercase;
+}
 
 #timeline .title{
   color: #08376B;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
 }
 ul.timeline {
   list-style-type: none;
@@ -884,6 +889,7 @@ ul.timeline > li:before {
 
 .buttonss{
   color: white !important;
+  margin: 0 0 20px 0;
 }
 
  .selected {
@@ -939,4 +945,5 @@ padding: 10px 10px 10px 10px;
 
 .sections h5{
   font-weight: 800;
+  color: #08376B;
 }
