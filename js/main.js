@@ -222,9 +222,10 @@ inputs.forEach(input => {
 }
 
 //btnprofile
-$('.btn').click(function() {
-	$('#content div').hide();
-    var target = '#' + $(this).data('target');
-    $(target).show();
-})
+$('.showSingle').on('click', function () {
+  $(this).addClass('selected').siblings().removeClass('selected');
+  $('.targetDiv').hide();
+  $('#div' + $(this).data('target')).show();
+});
+$('.showSingle').first().click();
 
