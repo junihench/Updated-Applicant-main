@@ -881,28 +881,21 @@ ul.timeline > li:before {
   box-shadow: none;
 }
 
-.listjobs {
-  padding: 0;
-  list-style-type: none;
+
+.buttonss{
+  color: white !important;
 }
 
-.listjobs li{
+ .selected {
+  color: white  !important;
+  background-color: #209dd8 !important;
+}
+.buttonss a{
+  margin: 5px;
+  padding: 5px;
   background-color: #08376B;
-  padding: 10px;
-  width: 100%;
-  margin-bottom:10px;
-  
-}
-
-.listjobs li > a{
-  
-  color: white !important;
-}
-
-.listjobs li:hover{
-  background-color: #209dd8;
-  color: white !important;
-}
+   
+ }
 
  /* Notifications */
  .boton{
