@@ -1043,14 +1043,14 @@ padding: 5px 10px 10px 10px;
 
 .heads{
   margin: 0px 0 10px 0;
-  background-color: #dddddd;
+  background-color: rgb(233, 236, 239) ;
   color: black;
  
 }
 
 .bot{
   margin: 10px 0 0px 0;
-  background-color: #dddddd;
+  background-color: rgb(233, 236, 239) ;
   color: black;
  
 }

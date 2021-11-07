@@ -825,13 +825,35 @@ section {
 }
 
 .notifs a {
-border-bottom: 1px solid #cecece;
-padding: 10px 10px 10px 10px;
+
+padding: 5px 10px 10px 10px;
 }
+
+.notifs{
+  width: 280px !important;
+  padding: 10px 10px 10px 8px;
+}
+
+.heads{
+  margin: 0px 0 10px 0;
+  background-color: rgb(233, 236, 239) ;
+  color: black;
+ 
+}
+
+.bot{
+  margin: 10px 0 0px 0;
+  background-color: rgb(233, 236, 239) ;
+  color: black;
+ 
+}
+
 
 .btn-group1, .btn-group2{
   display:inline;
 }
+
+
 
 .btn-group1{
   margin-right: -5px !important;
