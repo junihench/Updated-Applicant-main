@@ -440,6 +440,11 @@ label.btn {
     margin-bottom: 0;
 }
 
+label{
+  color: #08376B;
+  font-weight: 600;
+}
+
 .btn-outline-primary {
     border-color: #26B4FF;
     background: transparent;
@@ -486,7 +491,8 @@ label.btn {
     font-weight: bold !important;
 }
 html:not(.dark-style) .account-settings-links .list-group-item.active {
-    background: transparent !important;
+    background: #209dd8 !important;
+    color:white !important;
 }
 .account-settings-multiselect ~ .select2-container {
     width: 100% !important;

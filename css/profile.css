@@ -888,18 +888,23 @@ ul.timeline > li:before {
 
 
 .buttonss{
-  color: white !important;
+  color: black !important;
   margin: 0 0 20px 0;
+  
+  
 }
 
  .selected {
   color: white  !important;
   background-color: #209dd8 !important;
+  border: 1px solid #0a99a3 !important;
 }
 .buttonss a{
   margin: 5px;
   padding: 5px;
   background-color: #08376B;
+  background-color: #d3d3d3 ;
+  border: 1px solid rgb(192, 192, 192);
    
  }
 
