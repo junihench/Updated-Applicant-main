@@ -363,16 +363,27 @@
                   Please upload a picture of your <b>Signature above printed name / Date</b>
                  </p>
   
-                 <label for="fileUpload" class="file-upload btn btn-primary btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
-                  <input id="fileUpload" type="file">
-              </label>
+                 <div class="form-group">
+                 
+                  <div class="input-group">
+                      <span class="input-group-btn">
+                          <span class="btn btn-file">
+                              Browse… <input type="file" id="imgInp">
+                          </span>
+                      </span>
+                      <input type="text" class="form-control" readonly>
+                  </div>
+                  <img id='img-upload'/>
+              </div>
                    </div>
             <div class="btns-group mb-3">
             <a href="#" class="btn btn-prev">Previous</a>
             <a href="profile.html" class="btn btn-danger " id="btn-confirm">Decline Offer</a>
             </div>
 
-            <a href="profile.html" class="btn btn-next btn-block ml-auto">Submit</a>
+           <div class="d-flex justify-content-center">
+            <a href="profile.html" class="btn  mt-4 btn-success btn-block">Submit</a>
+           </div>
           </div>
 
           
