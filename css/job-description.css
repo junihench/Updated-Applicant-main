@@ -700,3 +700,72 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #08376B;
     font-weight: 600;
   }
+
+  
+.btn-notif{
+  background-color: #08376B;
+  color: #f3f3f3;
+  padding:5px 10px 5px 10px;
+}
+
+/* Notifications */
+.boton{
+  background-color: transparent;
+  padding: none;
+}
+
+.boton i{
+  color: #08376B;
+  font-size:20px;
+}
+
+.boton:hover{
+  background-color: none !important;
+}
+
+.btn-notif{
+  background-color: #08376B;
+  color: #f3f3f3;
+  padding:5px 10px 5px 10px;
+}
+
+.notifs a {
+
+padding: 5px 10px 10px 10px;
+}
+
+.notifs{
+  width: 280px !important;
+  padding: 10px 10px 10px 8px;
+}
+
+.heads{
+  margin: 0px 0 10px 0;
+  background-color: rgb(233, 236, 239) ;
+  color: black;
+ 
+}
+
+.bot{
+  margin: 10px 0 0px 0;
+  background-color: rgb(233, 236, 239) ;
+  color: black;
+ 
+}
+
+
+.btn-group1, .btn-group2{
+  display:inline;
+}
+
+
+
+.btn-group1{
+  margin-right: -5px !important;
+  padding: 0;
+}
+
+.btn-group2{
+  margin-left: 0;
+  padding: 0;
+}

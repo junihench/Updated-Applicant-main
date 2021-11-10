@@ -7,7 +7,7 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Favicons -->
+<!-- Favicons -->
 <link href="img/favicon/android-chrome-192x192.png" rel="icon">
 <link href="img/favicon/android-chrome-512x512.png" rel="icon">
 <link href="img/favicon/apple-touch-icon.png" rel="icon">
@@ -30,10 +30,9 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/careers.css" rel="stylesheet">
-
+  <link href="css/user-apply.css" rel="stylesheet">
 </head>
-<body class="bg-light">
+
   <!--==========================
     Header
   ============================-->
@@ -47,8 +46,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="user-home.html">Home</a></li>
-          <li><a href="user-about.html">About</a></li>
-          <li class="menu-active"><a href="user-careers.html">Careers</a>
+          <li class="menu-active"><a href="user-about.html">About</a></li>
+          <li><a href="user-careers.html">Careers</a>
            </li>
            <li><a href="job-offer-main.html">Job Offer</a></li>
           <li><a href="user-contact.html">Contact</a></li>
@@ -97,120 +96,268 @@
     </div>
   </header><!-- #header -->
 
-  <!--careers section-->
-  <section class="section-header">
-  <div class="container">
-    <div class="section-title">
-      <h2>Latest Job Post</h2>
-     
+
+
+  <body class="bg-white">
+    <div class="row breads bg-light">
+      <div class="col-lg-12 ">  
+        <nav aria-label="breadcrumb ">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="careers.html">Careers</a></li>
+          <li class="breadcrumb-item"><a href="job-description.html">Job Details</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Fill In Application</li>
+        </ol>
+        </nav>
+      </div>
     </div>
-    
-    <div class="search-sec">
-      <div class="container">
-          <form action="#" method="post" novalidate="novalidate">
-              <div class="row">
-                  <div class="col-lg-12">
-                      <div class="row justify-content-center">
-                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                          <select class="form-control search-slt" id="exampleFormControlSelect1">
-                            <option>Teaching</option>
-                            <option>Non-Teaching</option>  
-                          </select>
-                      </div>
-                          <div class="col-lg-7 col-md-3 col-sm-12 p-0">
-                              <input type="text" class="form-control search-slt" placeholder="Enter Job Keyword/Title">
-                          </div>
-                          <div class="col-lg-2 col-md-3 col-sm-12 p-0">
-                              <button type="button" class="btn wrn-btn">Search</button>
-                          </div>
-                      </div>
+    <!--sign up form-->
+    <section id="apply">
+      <div class="section-title">
+        <h2>Geodetic Engineering</h2>
+      </div>
+      <div class="col-12 col-lg-3 ml-auto mr-auto mb-4">  
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step progress-step-active"></div>
+            <div class="progress-step" ></div>
+            <div class="progress-step" ></div>
+          </div>
+  
+    </div>
+  
+        <!-- Steps -->
+        <form action="#" class="form ">
+          <div class="form-step form-step-active">
+            <p class="subt text-center text-muted">Fill In Application</p>
+            
+              <!--Personal Information-->
+              <h3>Personal Information</h3>
+              <div class="inner-form bg-white">
+                <div class="form-row">            
+                  <div class="form-group col-md-4">
+                      <label for="fname">First Name</label>
+                      <input type="text" required class="form-control" id="fname" placeholder="" required>
                   </div>
+                  <div class="form-group col-md-4">
+                    <label for="mname">Middle Name</label>
+                    <input type="text" class="form-control" id="mname" placeholder="">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname" placeholder="">
+                  </div>
+                </div>
+                <div class="form-row">                 
+                  <div class="form-group col-md-4">
+                    <label for="phonenum">Phone Number</label>
+                    <input type="number" class="form-control" id="phonenum" placeholder="">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="email">Email</label>
+                    <input type="email"  class="form-control" id="email">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="bday">Birthday</label>
+                    <input type="date" class="form-control" id="bday" placeholder="">   
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-3">
+                    <label for="inputAddress2">Address<br> <small class="text-muted">House Number</small></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputAddress2"><br> <small class="text-muted">Barangay</small></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputAddress2"><br> <small class="text-muted">City</small></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputAddress2"><br> <small class="text-muted">Province</small></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                  </div>
+                </div>
               </div>
-          </form>
-      </div>
-    </div>
-
-    <div class="job">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="job-post d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pic"><img src="img/job.png" class="img-fluid" alt=""></div>
-            <div class="job-post-info">
-              <h4>Information Technology</h4>
-              <span class="work-type">Faculty-Regular</span>
-              <span class="status">3 days ago</span>
-              <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-              <a href="user-job-description.html" class="apply">Apply Now</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 mt-4 mt-lg-0">
-          <div class="job-post d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pic"><img src="img/job.png" class="img-fluid" alt=""></div>
-            <div class="job-post-info">
-              <h4>Information Technology</h4>
-              <span>Faculty-Regular</span>
-              <span class="status">3 days ago</span>
-              <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>   
-              <a href="job-description.html" class="apply">Apply Now</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 mt-4">
-          <div class="job-post d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pic"><img src="img/job.png" class="img-fluid" alt=""></div>
-            <div class="job-post-info">
-              <h4>Information Technology</h4>
-              <span>Faculty-Regular</span>
-              <span class="status">3 days ago</span>
-              <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-              <a href="job-description.html" class="apply">Apply Now</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 mt-4">
-          <div class="job-post d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-            <div class="pic"><img src="img/job.png" class="img-fluid" alt=""></div>
-            <div class="job-post-info">
-              <h4>Information Technology</h4>
-              <span>Faculty-Regular</span>
-              <span class="status">3 days ago</span>
-              <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-              <a href="job-description.html" class="apply">Apply Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   
-        
-        
-  </div>
+              <!--Educational Background-->
+              <h3>Educational Background</h3>
+              <div class="inner-form bg-white">
+              <div class="form-row">
+                  <div class="form-group col-md-4">
+                      <label for="phonenum">Eligibility</label>
+                      <input type="text" class="form-control" id="phonenum" placeholder="">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="bday">School</label>
+                      <input type="text" class="form-control" id="bday" placeholder="">   
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="bday">Course</label>
+                    <input type="text" class="form-control" id="bday" placeholder="">   
+                </div>
+              </div>
+              <div class="form-group ">
+                  <label for="inputAddress2 ">Highest Educational Attainment </label>
+                <div class=" mt-3 pl-4">
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
+                    <label class="custom-control-label" for="defaultGroupExample1">Post Graduate Studies</label>
+                  </div>         
+                  <!-- Group of default radios - option 2 -->
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
+                    <label class="custom-control-label" for="defaultGroupExample2">Bachelor’s Degree</label>
+                  </div>         
+                  <!-- Group of default radios - option 3 -->
+                  <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios">
+                    <label class="custom-control-label" for="defaultGroupExample3">High School</label>
+                  </div>
+                  <div class="form-inline mt-4 "><label for="bday">Others: </label>
+                    <input type="text" class="form-control ml-3 w-75" id="bday" placeholder="">   </div>           
+                </div> 
+                </div>
+              </div>
   
-  <nav aria-label="...">
-    <ul class="pagination justify-content-center">
-      <li class="page-item">
-        <span class="page-link">Previous</span>
-      </li>
-      <li class="page-item active"><a class="page-link" href="#">1</a></li>
-      <li class="page-item">
-        <span class="page-link">
-          2
-          <span class="sr-only">(current)</span>
-        </span>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Next</a>
-      </li>
-    </ul>
-  </nav>
+              <!--Work Experience-->
+              <h3>Work Experience</h3>
+              <div class="inner-form bg-white">
+              <div class="form-row">            
+                  <div class="form-group col-md-6">
+                      <label for="phonenum">Recent Job Title <br><small>(Enter N/A if not applicable)</small></label>
+                      <input type="text" class="form-control" id="phonenum" placeholder="">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="bday">Recent Company / Job Agency <br><small>(Enter N/A if not applicable)</small></label>
+                      <input type="text" class="form-control" id="bday" placeholder="">   
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label for="phonenum">Inclusive Dates of Recent Work Experience: (FROM)</label>
+                      <input type="date" class="form-control" id="bday" placeholder="">   
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="bday">Inclusive Dates of Recent Work Experience: (TO)</label>
+                      <input type="date" class="form-control" id="bday" placeholder="">   
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="#" class="btnss btn-next btn-block ml-auto">Next</a>
+            </div>
+            </div>
   
+  
+            <!--File table-->
+            <div class="form-step">
+              <p class="subt text-center text-muted">Job Application Files</p>
+              <div class="table-responsive">
+                <table class="table ">
+                  <thead class="bg-white" >
+                    <tr>
+                      <th class="heading" scope="col">Documentary Requirements</th>
+                      <th class="heading" scope="col">File</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white">
+                    <tr>
+                      <th scope="row">Letter of Intent</th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">CSC Form 212, Revised 2017 (Personal Data Sheet) with ID picture taken within the last 6 months, 3.5cm x 4.5cm (passport size) and with full and handwritten name tag and signature overprinted name</th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Curriculum Vitae</th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy of Transcript of Records</th>
+                      <td><button>UPLOAD</button></td>
+                    
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy of Diploma</th>
+                      <td><button>UPLOAD</button></td>
+                     
+                    </tr>
+                    <tr>
+                      <th class="pop" scope="row">Certificate for the appropriate/required eligibility/licenses</th>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th class="pl-5" scope="row">Photocopy of Professional Regulation Commission (PRC) professional ID card/certificate of registration/license and other eligibilities, if available</th>
+                      <td><button>UPLOAD</button></td>
+                    
+                    </tr>
+                    <tr>
+                      <th class="pl-5">Photocopy of ratings obtained in the Licensure Examination for teachers (LET)/Professional Board Examination for Teachers (PBET), if available.</th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy from the authenticated copy of Diploma and TOR (authenticated by the school registrar)                                </th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy from the authenticated copy of unexpired PRC License / Board Rating / CS Eligibility                                </th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy of Certificate of relevant trainings / seminars attended (if applicable)                                </th>
+                      <td><button>UPLOAD</button></td>
+                     
+                    </tr>
+                    <tr>
+                      <th scope="row">Photocopy of Certificate of Employment (if applicable)                                </th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Individual Performance Commitment and Review (IPCR) / Performance Rating in the last 2 rating periods, if applicable</th>
+                      <td><button>UPLOAD</button></td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+               <div class="btns-group">
+                <a href="#" class="btnss btn-prev">Previous</a>
+                <a href="#" class="btnss btn-next">Next</a>
+            </div>          
+            </div>                      
+  
+  
+                    <!--Data Privacy-->
+          <div class="form-step ">
+            <h3 class="text-center">Acknowledgement of Job Application</h3>
+            <div class="inner-form bg-white">
+              <p>Thank you for your interest in applying for a position at University of Science and Technology of Southern Philippines. We will review shortly your application based on the qualification standards for this position. We will contact you soon should you be part of our shortlisted applicants.
+  
+                Please be informed that if you will not receive a notice from the recruitment staff within sixty (60) days from the receipt of this email, it is understood that your application for a specific position has not been successful. However, we will keep your necessary contact details for our applicant database should there be a future job vacancy suitable for your credentials. Thank you.</p>
+            </div>
+            <div class="btns-group">
+            <a href="#" class="btnss btn-prev">Previous</a>
+            <a href="profile.html" class="btnss btn-next">Accept</a>
+          </div>
+          </div>
+  
+        </form>
+     </section>
     
-  </section>
+    </body>
+  
 
  <!-- ======= Footer ======= -->
  <footer id="footer">
@@ -413,7 +560,6 @@
 </div>
 </div>
 
-  
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
@@ -433,5 +579,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
 </body>
 </html>

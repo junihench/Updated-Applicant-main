@@ -414,7 +414,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .card {
-  position: relative;
+  position: inherit;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -426,9 +426,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .card-body {
-  flex: 1 1 auto;
+
   min-height: 1px;
-  padding: 1rem;
+  padding: 10px;
 }
 .gutters-sm {
   margin-right: -8px;
@@ -493,7 +493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .container-art {
   position: relative;
   width: 100%;
-  max-width: 150px;
+  max-width: 80px;
  
 }
 
@@ -975,3 +975,26 @@ padding: 5px 10px 10px 10px;
   font-weight: 800;
   color: #08376B;
 }
+.contacts{
+  text-align:left;
+}
+.contacts > .in-contacts{
+  color:rgb(55, 55, 55);
+  font-weight: 700;
+}
+.contacts > .in-contacts > i{
+  margin-right:10px;
+  color:#0062cc;
+  font-size:18px;
+}
+
+.details{
+  margin-left:28px;
+  color:black;
+  font-weight:500 !important;
+}
+
+.timeline-title span{
+  color: #2A3439;
+}
+
