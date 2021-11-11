@@ -472,7 +472,9 @@ input {
   margin-bottom: 0;
   font-size: 15px;
   background-color: transparent;
-  padding: 10px 0 10px 30px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  
 }
 .breadcrumb a{
   color:#08376B;
