@@ -935,6 +935,11 @@ td > button {
   padding:10px;
 }
 
+.btn-next:hover, .btn-prev:hover{
+  color: white;
+  background-color: #209dd8 !important;
+}
+
 .btn-decline, .btn-accept{
   
   color: white;
