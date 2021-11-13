@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #585a61;
+  overflow-x: hidden;
 }
 
 a {
@@ -625,14 +626,14 @@ section {
 
 /* Form */
 .form {
-  width: clamp(350px, 70%, 700px);
+  width: clamp(350px, 80%, 1000px);
   margin: 0 auto;
 }
 .inner-form{
   border: 1px solid #ccc;
   border-radius: 0.35rem;
   padding: 1.5rem;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .inner-form p{
@@ -933,8 +934,20 @@ td > button {
   color: white;
   padding:10px;
 }
+
+.btn-decline, .btn-accept{
+  
+  color: white;
+  padding:10px;
+}
+
+.btn-accept{
+  background-color: #5cb85c !important;
+}
+
 table{
   color: black;
+
 }
 thead{
   font-weight: 700;
@@ -1057,4 +1070,9 @@ padding: 5px 10px 10px 10px;
 
 .btn-success{
   width:50%;
+}
+
+.img-header{
+display: flex;
+justify-content: center;
 }
